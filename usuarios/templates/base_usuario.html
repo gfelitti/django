@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width'>
+	<meta rel='stylesheet' href='{% static "styles/bootstrap.css"%}'>
+	<meta rel='stylesheet' href='{% static "styles/signin.css"%}'>
+	<title>Observatório</title>
+
+</head>
+<body>
+<div class="container">
+	{% block body %}
+	{% endblock %}
+</div>
+</body>
+</html>
